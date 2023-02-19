@@ -3,7 +3,8 @@
 /**
  * main- entry point
  * puts- print output
- * return- always (0)
+ *
+ * Return: Always (0)
  */
 
 
