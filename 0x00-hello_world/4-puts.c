@@ -1,6 +1,10 @@
 #include <stdio.h>
 
-
+/**
+ * main- entry point
+ * puts- print output
+ * return- always (0)
+ */
 
 
 int main(void)
