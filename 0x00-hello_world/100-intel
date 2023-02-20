@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -miamcu -S $CFILE
+gcc -miamcu $CFILE
