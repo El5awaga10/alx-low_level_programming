@@ -1,6 +1,5 @@
-char _putchar(char c)
+int _putchar(char c)
      {
-	     char c;
              printf("%c", c);
              return (0);
      }
