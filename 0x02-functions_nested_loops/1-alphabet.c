@@ -11,10 +11,10 @@
 int main(void)
 {
 	int i= 0;
-	char c;
 	if (islower(c))
 		while (i!=EOF)
 		{
+                        char c;
 			_putchar(c);
 			i++;
 		}
