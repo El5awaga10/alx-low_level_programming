@@ -1,4 +1,4 @@
-int _putchar(c)
+void _putchar(c)
      {
 	     char c;
              printf("%c", c);
