@@ -1,5 +1,6 @@
 int _putchar(void)
      {
-             printf("%c");
+	     char c
+             printf("%c", c);
              return (0);
      }
