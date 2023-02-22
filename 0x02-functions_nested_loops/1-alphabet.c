@@ -15,7 +15,8 @@ int main(void)
 	if (islower(c))
 		while (i!=EOF)
 		{
-			_putchar("%c\n", c);
+			_putchar(c);
 			i++;
 		}
+	_putchar('\n');
         return (0);
