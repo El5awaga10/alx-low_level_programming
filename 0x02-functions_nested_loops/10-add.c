@@ -13,3 +13,4 @@ int add(int a, int b)
 
 	_putchar(result + '0');
 	return (0);
+}
