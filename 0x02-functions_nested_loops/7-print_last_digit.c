@@ -5,10 +5,9 @@
  * Return: Always 0
  */
 
-int print_last_digit(int)
+int print_last_digit(int last_digit)
 {
 	int num;
-	int last_digit;
 	last_digit = num % 10;
 	_putchar (last_digit);
 	return (0);
