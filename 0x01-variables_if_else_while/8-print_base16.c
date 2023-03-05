@@ -8,6 +8,7 @@
 int main(void)
 {
 	int i;
+	char alpha;
 
 	i = '0';
 	while (i <= '9')
@@ -15,13 +16,12 @@ int main(void)
 		putchar(i);
 		i++;
 	}
-	char a;
 
-	a = 'a';
-	while (a <= 'f')
+	alpha = 'a';
+	while (alpha <= 'f')
 	{
-		putchar(a);
-		a++;
+		putchar(alpha);
+		alpha++;
 	}
 	putchar('\n');
 	return (0);
