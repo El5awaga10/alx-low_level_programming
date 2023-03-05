@@ -9,7 +9,7 @@ int main(void)
 {
 	int c;
 
-	while (c = 0, c <= 'a' && c >= 'z', c++)
+	for (c = 0; c <= 'a' && c >= 'z'; c++)
 	{
 		putchar('c' + '\0');
 	}
