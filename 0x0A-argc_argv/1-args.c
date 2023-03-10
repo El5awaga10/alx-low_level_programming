@@ -9,6 +9,7 @@
 
 int main(int argc, char *argv[])
 {
+	(void)*argv;
 	int count;
 	int sum = 0;
 
