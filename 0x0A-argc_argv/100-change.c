@@ -1,13 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
- * main- Entry point
- * @argc: counter
- * @argv: array
- * Return: return 0
+ * main - prints the minimum number of coins to make change for an amount.
+ * of money.
+ * @argc: number of command line arguments.
+ * @argv: array that contains the program command line arguments.
+ * Return: 0 - success.
  */
-
 int main(int argc, char *argv[])
 {
 	int cents, ncoins = 0;
