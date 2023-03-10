@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include "main.h"
 
 /**
  * main- Entry point
@@ -12,6 +10,6 @@
 int main (int argc, char *argv[])
 {
 	printf ("the name of the program is %s", argv[0]);
-	_putchar('\n');
+	printf ('\n');
 	return (0);
 }
